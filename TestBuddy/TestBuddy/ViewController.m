@@ -27,5 +27,6 @@
 }
 
 - (IBAction)didTapButtonClick:(id)sender {
+    self.label.text = @"Ha ha testing custom messages";
 }
 @end
