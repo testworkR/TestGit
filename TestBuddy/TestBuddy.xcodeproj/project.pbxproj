@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		194A686C3A3B454AA06C5DF2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3248FD62D69BFB848582967 /* CoreTelephony.framework */; };
+		218262FE3279E8963E6507AC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDCFFF749AA75B52477C295 /* CoreText.framework */; };
+		447FFAC951E0C17F31C078C0 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5573836A5EB5F3C8AE8A5137 /* AssetsLibrary.framework */; };
+		59C6721DD4E8139199625474 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E2B272CF9F9C0F42AF58EA /* SystemConfiguration.framework */; };
+		6DA27A0BE1A56001C364B83F /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61543B969FEEA026378EDD65 /* BuddyBuildSDK.framework */; };
+		E0742321F698F89D672BAC7D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4CE61460835F53D08CC134 /* QuartzCore.framework */; };
 		FD85A9521C894857008AADA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD85A9511C894857008AADA0 /* main.m */; };
 		FD85A9551C894857008AADA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD85A9541C894857008AADA0 /* AppDelegate.m */; };
 		FD85A9581C894857008AADA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD85A9571C894857008AADA0 /* ViewController.m */; };
@@ -27,6 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5573836A5EB5F3C8AE8A5137 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		61543B969FEEA026378EDD65 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		87E2B272CF9F9C0F42AF58EA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C3248FD62D69BFB848582967 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CB4CE61460835F53D08CC134 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FD85A94C1C894857008AADA0 /* TestBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD85A9501C894857008AADA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD85A9511C894857008AADA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +51,7 @@
 		FD85A9651C894857008AADA0 /* TestBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD85A96A1C894857008AADA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD85A96B1C894857008AADA0 /* TestBuddyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBuddyTests.m; sourceTree = "<group>"; };
+		FDDCFFF749AA75B52477C295 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DA27A0BE1A56001C364B83F /* BuddyBuildSDK.framework in Frameworks */,
+				447FFAC951E0C17F31C078C0 /* AssetsLibrary.framework in Frameworks */,
+				218262FE3279E8963E6507AC /* CoreText.framework in Frameworks */,
+				194A686C3A3B454AA06C5DF2 /* CoreTelephony.framework in Frameworks */,
+				59C6721DD4E8139199625474 /* SystemConfiguration.framework in Frameworks */,
+				E0742321F698F89D672BAC7D /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +78,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		021A96959B9A404EFF2AA27F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61543B969FEEA026378EDD65 /* BuddyBuildSDK.framework */,
+				5573836A5EB5F3C8AE8A5137 /* AssetsLibrary.framework */,
+				FDDCFFF749AA75B52477C295 /* CoreText.framework */,
+				C3248FD62D69BFB848582967 /* CoreTelephony.framework */,
+				87E2B272CF9F9C0F42AF58EA /* SystemConfiguration.framework */,
+				CB4CE61460835F53D08CC134 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FD85A9431C894857008AADA0 = {
 			isa = PBXGroup;
 			children = (
 				FD85A94E1C894857008AADA0 /* TestBuddy */,
 				FD85A9681C894857008AADA0 /* TestBuddyTests */,
 				FD85A94D1C894857008AADA0 /* Products */,
+				021A96959B9A404EFF2AA27F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -349,6 +381,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestBuddy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +395,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestBuddy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +458,7 @@
 				FD85A9711C894857008AADA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD85A9721C894857008AADA0 /* Build configuration list for PBXNativeTarget "TestBuddyTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +467,7 @@
 				FD85A9741C894857008AADA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
